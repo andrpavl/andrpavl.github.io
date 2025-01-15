@@ -1,16 +1,5 @@
 [
 	{
-		"id": 1,
-		"question": "Which HTML tag is used to create an unordered list?",
-		"options": [
-			{ "text": "<ul>", "isCorrect": true },
-			{ "text": "<ol>", "isCorrect": false },
-			{ "text": "<li>", "isCorrect": false },
-			{ "text": "<list>", "isCorrect": false }
-		],
-		"explanation": "The <ul> tag in HTML is used to define an unordered list, which displays items with bullet points."
-	},
-	{
 		"id": 2,
 		"question": "What does HTML stand for?",
 		"options": [
