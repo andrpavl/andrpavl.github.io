@@ -125,5 +125,16 @@
 			{ "text": "TypeError", "isCorrect": false }
 		],
 		"explanation": "The output will be false because of floating-point precision issues in JavaScript. 0.1 + 0.2 equals 0.30000000000000004 instead of 0.3."
+	},
+	{
+		"id": 14,
+		"question": "How many HTTP methods exist?",
+		"options": [
+			{ "text": "5", "isCorrect": false },
+			{ "text": "23", "isCorrect": false },
+			{ "text": "39", "isCorrect": true },
+			{ "text": "150", "isCorrect": false }
+		],
+		"explanation": "Developers typically only use GET, PUT, or POST, DELETE, but the official HTTP Request Method registry lists 39 total."
 	}
 ]
