@@ -14,9 +14,9 @@
 		"id": 3,
 		"question": "Which CSS property is used to change the text color of an element?",
 		"options": [
-			{ "text": "color", "isCorrect": true },
 			{ "text": "background-color", "isCorrect": false },
 			{ "text": "font-color", "isCorrect": false },
+			{ "text": "color", "isCorrect": true },
 			{ "text": "text-style", "isCorrect": false }
 		],
 		"explanation": "The 'color' property in CSS is used to specify the text color of an element."
@@ -26,15 +26,15 @@
 		"question": "What is the purpose of the <head> element in HTML?",
 		"options": [
 			{
-				"text": "To contain metadata and links to external resources",
-				"isCorrect": true
-			},
-			{
 				"text": "To display the main content of the webpage",
 				"isCorrect": false
 			},
 			{ "text": "To style the webpage", "isCorrect": false },
-			{ "text": "To create a footer for the page", "isCorrect": false }
+			{ "text": "To create a footer for the page", "isCorrect": false },
+			{
+				"text": "To contain metadata and links to external resources",
+				"isCorrect": true
+			}
 		],
 		"explanation": "The <head> element contains metadata about the document and links to external resources like stylesheets and scripts."
 	},
@@ -48,5 +48,82 @@
 			{ "text": "spacing", "isCorrect": false }
 		],
 		"explanation": "The 'line-height' property in CSS is used to specify the amount of space between lines of text."
+	},
+	{
+		"id": 6,
+		"question": "When JavaScript was appeared at first?",
+		"options": [
+			{ "text": "In 1984", "isCorrect": false },
+			{ "text": "In 2002", "isCorrect": false },
+			{ "text": "In 1995", "isCorrect": true },
+			{ "text": "In 1991", "isCorrect": false }
+		],
+		"explanation": "JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation. It was initially called Mocha, later renamed to LiveScript, and finally to JavaScript."
+	},
+	{
+		"id": 7,
+		"question": "Which of the following is not a valid JavaScript data type?",
+		"options": [
+			{ "text": "String", "isCorrect": false },
+			{ "text": "Boolean", "isCorrect": false },
+			{ "text": "Character", "isCorrect": true },
+			{ "text": "Number", "isCorrect": false }
+		],
+		"explanation": "JavaScript does not have a specific 'Character' data type. Instead, characters are represented as strings of length 1."
+	},
+	{
+		"id": 8,
+		"question": "What is the output of the following code: console.log(typeof null);",
+		"options": [
+			{ "text": "'null'", "isCorrect": false },
+			{ "text": "'object'", "isCorrect": true },
+			{ "text": "'undefined'", "isCorrect": false },
+			{ "text": "'string'", "isCorrect": false }
+		],
+		"explanation": "The typeof null in JavaScript returns 'object'. This is a known quirk of JavaScript and has been retained for backward compatibility."
+	},
+	{
+		"id": 9,
+		"question": "Which method is used to add an element to the end of an array in JavaScript?",
+		"options": [
+			{ "text": "push()", "isCorrect": true },
+			{ "text": "pop()", "isCorrect": false },
+			{ "text": "shift()", "isCorrect": false },
+			{ "text": "unshift()", "isCorrect": false }
+		],
+		"explanation": "The push() method is used to add one or more elements to the end of an array in JavaScript."
+	},
+	{
+		"id": 10,
+		"question": "What date is used as the starting point for time in JavaScript?",
+		"options": [
+			{ "text": "December 31, 1999, 23:59:59 UTC", "isCorrect": false },
+			{ "text": "January 1, 1970, 00:00:00 UTC", "isCorrect": true },
+			{ "text": "January 1, 2000, 00:00:00 UTC", "isCorrect": false },
+			{ "text": "January 1, 1960, 00:00:00 UTC", "isCorrect": false }
+		],
+		"explanation": "JavaScript uses January 1, 1970, 00:00:00 UTC as the starting point for time, also known as the Unix Epoch. Time values in JavaScript are calculated as the number of milliseconds elapsed since this date."
+	},
+	{
+		"id": 11,
+		"question": "Which keyword is used to declare a constant in JavaScript?",
+		"options": [
+			{ "text": "let", "isCorrect": false },
+			{ "text": "var", "isCorrect": false },
+			{ "text": "const", "isCorrect": true },
+			{ "text": "static", "isCorrect": false }
+		],
+		"explanation": "The 'const' keyword is used to declare a constant in JavaScript, which means its value cannot be reassigned once it has been set."
+	},
+	{
+		"id": 12,
+		"question": "What will the following code output? console.log(0.1 + 0.2 === 0.3);",
+		"options": [
+			{ "text": "true", "isCorrect": false },
+			{ "text": "false", "isCorrect": true },
+			{ "text": "undefined", "isCorrect": false },
+			{ "text": "TypeError", "isCorrect": false }
+		],
+		"explanation": "The output will be false because of floating-point precision issues in JavaScript. 0.1 + 0.2 equals 0.30000000000000004 instead of 0.3."
 	}
 ]
